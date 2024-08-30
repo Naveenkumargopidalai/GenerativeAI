@@ -11,7 +11,7 @@ class Chain:
     def __init__(self):
         self.llm = ChatNVIDIA(
                     model="mistralai/mistral-large-2-instruct",
-                    api_key="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", 
+                    api_key="nvapi-", 
                     temperature=0.2,
                     top_p=0.7,
                     max_tokens=1024,
